@@ -1,10 +1,69 @@
 .App {
   text-align: center;
+  /* height: 30vmin; */
 }
+.App2 {
+  text-align: center;
+  height: 30vmin;
+  
+}
+
+.App3 {
+  text-align: center;
+  /* height: 90vmin; */
+  
+}
+.App4 {
+  text-align: center;
+  /* position:relative; */
+  /* bottom:0; */
+  /* height: 90vmin; */
+  
+}
+
+
+
+.Navb{
+  padding: 0% 8%;
+}
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.photof {
+  height: 50vmin;
+  width : 120px;
+  height : 120px;
+  /* margin-top: -100px; */
+
+  pointer-events: none;
+
+}
+
+.photof1{
+  width : 120px;
+  height : 100px; 
+
+}
+
+.photof3{
+  width : 100px;
+  height : 100px; 
+}
+.Bold
+{
+  font-weight: bold;
+  font-size: 25px;
+}
+.light{
+  font-size: 15px;
+}
+.card-text{
+  font-size: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +73,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(3, 3, 3);
+}
+
+.App-header2 {
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(3, 3, 3);
+}
+.WorksHeader{
+  /* height: -100vmin; */
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f0e3e3;
+  padding: 15px 10px;
+  background-color: #070707;
+  border-radius: 12px;
+  font-size: 14px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +115,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Email{
+  font-size:15px;
+}
+
+.ContactT{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Crop IMAGECrop IMAGE
+Crop JPG, PNG or GIF by defining a rectangle in pixels.
+
+Crop JPG, PNG or GIF by defining a rectangle in pixels.
+
+.Works{
+  height: 100vmin;
+} */
+
+.Gabby{
+  font-size: 15px;
+}
+
+.footer{
+            position: relative;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            font-size: 15px;
+            /* Height of the footer*/ 
+            height: 40px;
+            /* background: grey; */
+}
+
+.D{
+  width : 400px;
+  height : 250px; 
+}
+
+.webw{
+  width : 300px;
+  height : 160px; 
+}
+.DE{
+  width : 400px;
+  height : 245px; 
+}
+
+.Design{
+  width : 390px;
+  height : 245px; 
+}
+
+.kk{
+  width : 350px;
+  height : 250px; 
+}
+
+.Myles{
+  width : 350px;
+  height : 250px;
 }
